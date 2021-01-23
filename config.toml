@@ -1,0 +1,4 @@
+baseURL = "https://rishiraj.dev/"
+languageCode = "en-us"
+title = "Rishiraj.Dev"
+theme = "beautifulhugo"
