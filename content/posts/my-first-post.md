@@ -2,7 +2,7 @@
 title: "My First Post"
 date: 2021-01-23T23:10:48+01:00
 author: "Rishiraj Purohit"
-draft: true
+draft: false
 ---
 some random text will come here
 ```php
