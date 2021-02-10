@@ -1,6 +1,6 @@
-#baseURL = "https://rishiraj.dev/"
+baseURL = "https://rishiraj.dev/"
 
-aseURL = "http://localhost:1313/"
+aseURL = "http://rishiraj.dev/"
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "rishiraj.dev"
@@ -185,12 +185,12 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   [params.social]                                         # 社交链接
     a-email = "mailto:blog@rishiraj.dev"
-    b-stack-overflow = "http://localhost:1313"
-    c-twitter = "http://localhost:1313"
-    d-facebook = "http://localhost:1313"
-    e-linkedin = "http://localhost:1313"
-    g-github = "http://localhost:1313"
-    m-instagram = "http://localhost:1313"
+    b-stack-overflow = "https://rishiraj.dev"
+    c-twitter = "https://rishiraj.dev"
+    d-facebook = "https://rishiraj.dev"
+    e-linkedin = "https://rishiraj.dev"
+    g-github = "https://rishiraj.dev"
+    m-instagram = "https://rishiraj.dev"
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
