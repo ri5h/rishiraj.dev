@@ -50,7 +50,7 @@ throw new InvalidArgumentException('Please check your input and try again');
 
 One way to look at the problem is to see if you can do anything to the array itself so that you don't have to go through each element one by one (`in_array()`) and instead just directly try to check if an element is there. For a simple array, it is possible.
 
-You can use another function called [`array_flip()`](https://www.php.net/manual/en/function.array-flip.php) which makes the array keys into values and values into keys. Then use [`array_key_exists()`](https://www.php.net/manual/en/function.array-key-exists.php) or [`isset()`](https://www.php.net/manual/en/function.isset.php) for a lookup that is almost `O(1)`.
+~~You can use another function called [`array_flip()`](https://www.php.net/manual/en/function.array-flip.php) which makes the array keys into values and values into keys. Then use [`array_key_exists()`](https://www.php.net/manual/en/function.array-key-exists.php) or [`isset()`](https://www.php.net/manual/en/function.isset.php) for a lookup that is almost `O(1)`.~~
 
 If you are worries that a single dimensional array doesn't have keys to begin with so how will it work ?
 - Internally php array always have keys and values even a one dimensional array has keys from `0-n` generally called as index.
@@ -82,3 +82,4 @@ if (!array_key_exists($pr_state , array_flip($copystates))) {
 ## Notes:
 1. While this is a useful method be sure that you can actually face the problem before trying to over-engineer simple situations. For example, this logic is better used against a list of usernames than a list of user_roles.
 2. When the array is fairly complex, it serves better to first make the array simple and then checking what the result of `array_flip()` will be.
+3. Just found out `array_flip()` is also probably `O(n)`
