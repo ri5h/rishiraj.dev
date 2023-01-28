@@ -52,7 +52,7 @@ One way to look at the problem is to see if you can do anything to the array its
 
 ~~You can use another function called [`array_flip()`](https://www.php.net/manual/en/function.array-flip.php) which makes the array keys into values and values into keys. Then use [`array_key_exists()`](https://www.php.net/manual/en/function.array-key-exists.php) or [`isset()`](https://www.php.net/manual/en/function.isset.php) for a lookup that is almost `O(1)`.~~
 
-If you are worries that a single dimensional array doesn't have keys to begin with so how will it work ?
+If you are worried that a single dimensional array doesn't have keys to begin with so how will it work ?
 - Internally php array always have keys and values even a one dimensional array has keys from `0-n` generally called as index.
 - Flip will use those numbers or indices as values.
 
