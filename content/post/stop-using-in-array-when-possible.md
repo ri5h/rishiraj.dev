@@ -82,4 +82,4 @@ if (!array_key_exists($pr_state , array_flip($copystates))) {
 ## Notes:
 1. While this is a useful method be sure that you can actually face the problem before trying to over-engineer simple situations. For example, this logic is better used against a list of usernames than a list of user_roles.
 2. When the array is fairly complex, it serves better to first make the array simple and then checking what the result of `array_flip()` will be.
-3. Just found out `array_flip()` is also probably `O(n)`
+3. Just found out `array_flip()` is also probably `O(n)`.
