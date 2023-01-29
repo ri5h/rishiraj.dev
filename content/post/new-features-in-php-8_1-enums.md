@@ -2,6 +2,9 @@
 title: "New Features in Php 8.1 - Enums"
 date: 2021-02-10T09:09:37+01:00
 draft: false
+tags: [
+    "php",
+]
 ---
 <br/>
 
