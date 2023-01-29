@@ -6,7 +6,7 @@
 
 <!-- bg_color -->
 {{ $color_map := dict "linen" "#faf6f1" "wheat" "#f1efe1" "gray" "#fbfbfb" "light" "#fff" }}<!---->
-{{ $.Scratch.Set "bg_color" (index $color_map (site.Params.color | default(print "linen"))) }}<!---->
+{{ $.Scratch.Set "bg_color" "linen" }}
 
 <!-- social_list -->
 {{ $social_params := slice "twitter" "github" "instagram" "mastodon" "rss" }}<!---->
