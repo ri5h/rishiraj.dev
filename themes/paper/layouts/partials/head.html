@@ -39,8 +39,7 @@
   {{ end }}
 
   <!-- Preload -->
-  {{ $dark_icon := "theme.png" }} {{ if site.Params.monoDarkIcon }} {{
-  $dark_icon := "theme.svg" }} {{ end }}
+  {{ $dark_icon := "theme.png" }} {{ if site.Params.monoDarkIcon }} {{ $dark_icon := "theme.svg" }} {{ end }}
   <link rel="preload" as="image" href="{{ $dark_icon | absURL }}" />
 
   {{ $avatar_url := $.Scratch.Get "avatar_url" }}
