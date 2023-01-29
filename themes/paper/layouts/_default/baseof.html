@@ -5,7 +5,7 @@
 {{ $.Scratch.Delete "avatar_url" }}<!---->
 
 <!-- bg_color -->
-{{ $color_map := dict "linen" "#faf6f1" "wheat" "#f1efe1" "gray" "#fbfbfb""light" "#fff" }}<!---->
+{{ $color_map := dict "linen" "#faf6f1" "wheat" "#f1efe1" "gray" "#fbfbfb" "light" "#fff" }}<!---->
 {{ $.Scratch.Set "bg_color" (index $color_map (site.Params.color | default(print "linen"))) }}<!---->
 
 <!-- social_list -->
