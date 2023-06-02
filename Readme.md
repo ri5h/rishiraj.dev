@@ -5,3 +5,5 @@ Modifying contents in `assets` requires the extended version to be installed.
 2. Installing a theme: `git clone https://github.com/olOwOlo/hugo-theme-even themes/even`
 3. Updating theme: `cd ./themes/even/ && git pull`
 4. Run hugo server: `hugo server -D`
+
+checking workflows
